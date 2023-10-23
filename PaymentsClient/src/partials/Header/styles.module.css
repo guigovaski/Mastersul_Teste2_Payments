@@ -1,0 +1,12 @@
+.container {
+  padding: 1rem;
+  background-color: #2BA3EE;
+  display: flex;
+  align-items: center;
+}
+
+.headerTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}

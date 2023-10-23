@@ -1,0 +1,50 @@
+.container {
+  min-height: calc(100vh - 100px);
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentContainer h1 {
+  font-size: 2.5rem;
+  margin: 2rem 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.selectBox {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  padding: 0 5px;
+  outline: none;
+  margin-bottom: 1.5rem;
+}
+
+.selectBox:focus {
+  border-color: #2BA3EE;
+}
+
+.searchButton {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: .8rem;
+  background-color: #2BA3EE;
+  color: #fff;  
+  cursor: pointer;
+  outline: none;
+}
+
+.searchButton:hover {
+  opacity: .9;
+}
