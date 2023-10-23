@@ -11,6 +11,7 @@
 ### Payments (back-end)
 - Para que o projeto funcione corretamente você deve entrar no arquivo "appsettings.json" e substituir o valor da propriedade "PathToData" para um caminho onde o arquivo .xlsx se encontra na sua máquina
 - Você deve buildar a solução antes de rodar
+- **ATENÇÂO** as portas que a aplicação irá usar estão configuradas no arquivo "launchSettings.json" dentro do diretório "Properties", caso você precise alterar alguma porta, lembre-se de mudar as portas de chamadas HTTP no projeto front-end (PDFReaderClient) também, para que as requisições funcionem corretamente
 
 ### PaymentsClient (front-end)
 - Para que o projeto funcione corretamente, você deve instalar as dependências do projeto, rodando o comando:
